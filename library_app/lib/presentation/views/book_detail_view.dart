@@ -196,9 +196,9 @@ class BookDetailView extends StatelessWidget {
       // 6. TOMBOL PINJAM DI BAWAH
       bottomNavigationBar: Container(
         padding: const EdgeInsets.all(20),
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           color: Colors.white,
-          boxShadow: [BoxShadow(color: Colors.black12, blurRadius: 10, offset: const Offset(0, -5))],
+          boxShadow: [BoxShadow(color: Colors.black12, blurRadius: 10, offset: Offset(0, -5))],
         ),
         child: SizedBox(
           width: double.infinity,

@@ -64,8 +64,8 @@ class OnboardingView extends StatelessWidget {
   // Helper untuk gambar
   Widget _buildImage(String assetName) {
     return Align(
-      child: Image.network(assetName, width: 250.0),
       alignment: Alignment.bottomCenter,
+      child: Image.network(assetName, width: 250.0),
     );
   }
 
