@@ -78,14 +78,11 @@ Aplikasi ini cocok digunakan untuk lingkungan sekolah, kampus, maupun perpustaka
 
 <h2> Screenshots</h2>
 
-<p><i>(raw)</i></p>
-
-<ul>
-  <li> Home & Filter Kategori</li>
-  <li> Detail Buku & Ulasan</li>
-  <li> Riwayat Peminjaman & Denda</li>
-  <li> Profil Pengguna & Level</li>
-</ul>
+<div align="center">
+  <img src="./demodpk1.jpeg" width="30%" />
+  <img src="./demoapk2.jpeg" width="30%" />
+  <img src="./demoapk3.jpeg" width="30%" />
+</div>
 
 ---
 
@@ -169,5 +166,5 @@ https://github.com/rezaaplvv
 <hr/>
 
 <div align="center">
-  <i>Smart Perpus App — Membaca Jadi Lebih Menyenangkan 📖✨</i>
+  <i>Smart Perpus App — Membaca Jadi Lebih Menyenangkan </i>
 </div>
