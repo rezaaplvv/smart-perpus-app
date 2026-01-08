@@ -1,4 +1,4 @@
-Smart Perpus App
+<b>Smart Perpus App</b>
 
 Smart Perpus App adalah aplikasi Perpustakaan Digital modern berbasis Flutter dan Firebase yang dilengkapi dengan fitur manajemen peminjaman, sistem gamifikasi (Level dan Pangkat), serta fitur ulasan interaktif untuk meningkatkan minat baca pengguna.
 
