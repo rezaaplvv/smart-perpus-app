@@ -1,71 +1,173 @@
-<b>Smart Perpus App</b>
+<div align="center">
 
-Smart Perpus App adalah aplikasi Perpustakaan Digital modern berbasis Flutter dan Firebase yang dilengkapi dengan fitur manajemen peminjaman, sistem gamifikasi (Level dan Pangkat), serta fitur ulasan interaktif untuk meningkatkan minat baca pengguna.
+<h1> Smart Perpus App</h1>
 
-Fitur Utama
+<p>
+Aplikasi <b>Perpustakaan Digital Modern</b> berbasis <b>Flutter</b> & <b>Firebase</b>  
+dengan sistem <b>gamifikasi</b>, <b>manajemen peminjaman</b>, dan <b>ulasan interaktif</b>.
+</p>
 
-Sistem Autentikasi: Proses Login dan Register yang aman menggunakan layanan Firebase Authentication.
+<img src="https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter" />
+<img src="https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase" />
+<img src="https://img.shields.io/badge/License-MIT-green" />
 
-Gamifikasi (User Level): Sistem pangkat otomatis bagi pengguna (Pemula, Kutu Buku, Pustakawan Cilik) berdasarkan akumulasi data buku yang telah diselesaikan.
+</div>
 
-Review dan Rating: Fitur pemberian ulasan dan rating bintang pada setiap koleksi buku yang tersinkronisasi secara realtime.
+<hr/>
 
-Manajemen Peminjaman: Sistem peminjaman dan pengembalian buku dengan penghitungan sisa masa pinjam serta denda keterlambatan secara otomatis.
+<h2> Tentang Aplikasi</h2>
 
-Wishlist: Daftar buku favorit untuk menyimpan referensi bacaan di masa mendatang.
+<p>
+<b>Smart Perpus App</b> adalah aplikasi perpustakaan digital yang dirancang untuk meningkatkan
+<b>minat baca</b> pengguna melalui sistem <b>level, pangkat, dan interaksi ulasan</b>.
+Aplikasi ini cocok digunakan untuk lingkungan sekolah, kampus, maupun perpustakaan umum.
+</p>
 
-Smart Search: Pencarian buku berdasarkan judul atau penulis dilengkapi dengan filter kategori yang dinamis.
+---
 
-Dark Mode Support: Antarmuka aplikasi yang dapat menyesuaikan dengan tema sistem perangkat pengguna.
+<h2> Fitur Utama</h2>
 
-Screenshots
+<ul>
+  <li>
+    <b> Sistem Autentikasi</b><br/>
+    Login dan Register aman menggunakan <b>Firebase Authentication</b>.
+  </li>
+  <br/>
+  <li>
+    <b>🎮 Gamifikasi (User Level)</b><br/>
+    Sistem pangkat otomatis:
+    <ul>
+      <li>Pemula</li>
+      <li>Kutu Buku</li>
+      <li>Pustakawan Cilik</li>
+    </ul>
+    Berdasarkan jumlah buku yang telah diselesaikan.
+  </li>
+  <br/>
+  <li>
+    <b> Review & Rating</b><br/>
+    Pengguna dapat memberikan ulasan dan rating bintang pada setiap buku secara realtime.
+  </li>
+  <br/>
+  <li>
+    <b> Manajemen Peminjaman</b><br/>
+    Peminjaman dan pengembalian buku dengan:
+    <ul>
+      <li>Perhitungan sisa masa pinjam</li>
+      <li>Denda keterlambatan otomatis</li>
+    </ul>
+  </li>
+  <br/>
+  <li>
+    <b> Wishlist</b><br/>
+    Menyimpan daftar buku favorit untuk dibaca di kemudian hari.
+  </li>
+  <br/>
+  <li>
+    <b> Smart Search</b><br/>
+    Pencarian berdasarkan judul atau penulis dengan filter kategori dinamis.
+  </li>
+  <br/>
+  <li>
+    <b> Dark Mode</b><br/>
+    Mendukung tema gelap sesuai pengaturan sistem perangkat.
+  </li>
+</ul>
 
-Berikut adalah beberapa tampilan utama dari aplikasi ini:
+---
 
-Home dan Filter Kategori
+<h2> Screenshots</h2>
 
-Detail Buku dan Ulasan
+<p><i>(raw)</i></p>
 
-Riwayat Peminjaman dan Denda
+<ul>
+  <li> Home & Filter Kategori</li>
+  <li> Detail Buku & Ulasan</li>
+  <li> Riwayat Peminjaman & Denda</li>
+  <li> Profil Pengguna & Level</li>
+</ul>
 
-Profil Pengguna dan Level
+---
 
-Teknologi yang Digunakan
+<h2> Teknologi yang Digunakan</h2>
 
-Framework: Flutter
+<table>
+  <tr>
+    <td><b>Framework</b></td>
+    <td>Flutter</td>
+  </tr>
+  <tr>
+    <td><b>State Management</b></td>
+    <td>GetX</td>
+  </tr>
+  <tr>
+    <td><b>Database</b></td>
+    <td>Firebase Cloud Firestore</td>
+  </tr>
+  <tr>
+    <td><b>Authentication</b></td>
+    <td>Firebase Auth</td>
+  </tr>
+  <tr>
+    <td><b>Fonts</b></td>
+    <td>Google Fonts (Poppins)</td>
+  </tr>
+  <tr>
+    <td><b>Icons</b></td>
+    <td>Lucide Icons, FontAwesome</td>
+  </tr>
+</table>
 
-State Management: GetX
+---
 
-Database dan Authentication: Firebase (Cloud Firestore dan Firebase Auth)
+<h2> Cara Menjalankan Proyek</h2>
 
-Fonts: Google Fonts (Poppins)
+<h3> Prasyarat</h3>
 
-Icons: Lucide Icons dan FontAwesome
+<ul>
+  <li>Flutter SDK telah terinstal</li>
+  <li>Proyek sudah terhubung dengan Firebase</li>
+  <li>
+    File konfigurasi:
+    <ul>
+      <li><code>google-services.json</code> (Android)</li>
+      <li><code>GoogleService-Info.plist</code> (iOS)</li>
+    </ul>
+  </li>
+</ul>
 
-Cara Menjalankan Proyek
+<h3> Langkah Instalasi</h3>
 
-Prasyarat
-
-Flutter SDK telah terinstal pada perangkat pengembangan.
-
-Proyek telah terhubung dengan layanan Firebase (konfigurasi google-services.json atau GoogleService-Info.plist).
-
-Langkah Instalasi
-
-Lakukan klon pada repository ini:
-git clone https://www.google.com/search?q=https://github.com/rezaaplvv/smart-perpus-app.git
-
-Masuk ke direktori proyek:
+<pre>
+git clone https://github.com/rezaaplvv/smart-perpus-app.git
 cd smart-perpus-app
-
-Instal dependensi yang diperlukan:
 flutter pub get
-
-Jalankan aplikasi pada perangkat atau emulator:
 flutter run
+</pre>
 
-Lisensi
+---
 
-Proyek ini didistribusikan di bawah Lisensi MIT. Lihat file LICENSE untuk informasi lebih lanjut.
+<h2> Lisensi</h2>
 
-Dibuat oleh Reza (https://www.google.com/search?q=https://github.com/rezaaplvv)
+<p>
+Proyek ini dirilis di bawah <b>Lisensi MIT</b>.  
+Silakan lihat file <code>LICENSE</code> untuk detail lebih lanjut.
+</p>
+
+---
+
+<h2> Developer</h2>
+
+<p>
+Dibuat oleh <b>Reza Pahlepi</b><br/>
+🔗 GitHub: 
+<a href="https://github.com/rezaaplvv" target="_blank">
+https://github.com/rezaaplvv
+</a>
+</p>
+
+<hr/>
+
+<div align="center">
+  <i>Smart Perpus App — Membaca Jadi Lebih Menyenangkan 📖✨</i>
+</div>
