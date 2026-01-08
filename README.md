@@ -34,7 +34,7 @@ Aplikasi ini cocok digunakan untuk lingkungan sekolah, kampus, maupun perpustaka
   </li>
   <br/>
   <li>
-    <b>🎮 Gamifikasi (User Level)</b><br/>
+    <b> Gamifikasi (User Level)</b><br/>
     Sistem pangkat otomatis:
     <ul>
       <li>Pemula</li>
