@@ -5,7 +5,7 @@ class UserModel {
   final String name;
   final String email;
   final String role; 
-  final String photoUrl; // ✅ Field Baru
+  final String photoUrl; // Field Baru
 
   UserModel({
     required this.userId,
@@ -22,7 +22,7 @@ class UserModel {
       name: data['name'] ?? '',
       email: data['email'] ?? '',
       role: data['role'] ?? 'user',
-      photoUrl: data['photo_url'] ?? '', // ✅ Ambil dari firebase
+      photoUrl: data['photo_url'] ?? '', //  Ambil dari firebase
     );
   }
 
@@ -32,7 +32,7 @@ class UserModel {
       'name': name,
       'email': email,
       'role': role,
-      'photo_url': photoUrl, // ✅ Simpan ke firebase
+      'photo_url': photoUrl, //  Simpan ke firebase
     };
   }
 }

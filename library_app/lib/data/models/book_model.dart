@@ -9,7 +9,7 @@ class BookModel {
   final String imageUrl;
   final String synopsis;
   final String category;
-  // ✅ Field Baru untuk Rating
+  // Field Baru untuk Rating
   final double rating;
   final int totalReviews;
 
@@ -37,7 +37,7 @@ class BookModel {
       imageUrl: data['image_url'] ?? '',
       synopsis: data['synopsis'] ?? 'Belum ada sinopsis.',
       category: data['category'] ?? 'Umum',
-      // ✅ Ambil data rating
+      //  Ambil data rating
       rating: (data['rating'] ?? 0).toDouble(),
       totalReviews: data['totalReviews'] ?? 0,
     );
@@ -52,7 +52,7 @@ class BookModel {
       'image_url': imageUrl,
       'synopsis': synopsis,
       'category': category,
-      // ✅ Simpan data rating
+      // Simpan data rating
       'rating': rating,
       'totalReviews': totalReviews,
     };
